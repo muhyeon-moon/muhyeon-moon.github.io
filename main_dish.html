@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        body{
+            font-family: "맑은 고딕","돋움";
+            font-size: 100%;
+        }
+        [class*="c_"]{
+            float: left;
+            width: 100%;
+        }
+        @media only screen and (min-width: 600px) {
+            .c_m_1 { width: 8.33%; }
+            .c_m_2 { width: 16.66%; }
+            .c_m_3 { width: 25%; }
+            .c_m_4 { width: 33.33%; }
+            .c_m_5 { width: 41.66%; }
+            .c_m_6 { width: 50%; }
+            .c_m_7 { width: 58.33%; }
+            .c_m_8 { width: 66.66%; }
+            .c_m_9 { width: 75%; }
+            .c_m_10 { width: 83.33%; }
+            .c_m_11 { width: 91.66%; }
+            .c_m_12 { width: 100%; }
+
+        }
+        @media only screen and (min-width: 768px) {
+            .c_1 { width: 8.33%; }
+            .c_2 { width: 16.66%; }
+            .c_3 { width: 25%; }
+            .c_4 { width: 33.33%; }
+            .c_5 { width: 41.66%; }
+            .c_6 { width: 50%; }
+            .c_7 { width: 58.33%; }
+            .c_8 { width: 66.66%; }
+            .c_9 { width: 75%; }
+            .c_10 { width: 83.33%; }
+            .c_11 { width: 91.66%; }
+            .c_12 { width: 100%; }
+
+        }
+        header{
+            height: 80px;
+            
+            background-color: #e3f1e0;
+        }
+       aside#menu{
+            color: #4a3728;
+            text-align: center;
+            min-height: calc(100vh);
+            background-color: #fef9e7;
+        }
+        aside#menu li{  
+            padding: 10px;
+            margin: 10px 0 0 0;
+            background-color: #fceebd;
+            
+        }
+        section#main{
+            padding: 15px;
+        }
+        section#main p{
+            padding: 5px;
+            font-size: 0.95em;
+            line-height: 130%;
+        }
+        aside#photos img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            
+        }
+        h3{
+            margin-top: 30px;
+        }
+        aside#photos li {
+            background-color: #ffffff;   
+            border: 1px solid #bcbcbc;    
+            padding: 12px;                  
+            margin: 20px 15px 0 0 ;           
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+            border-radius: 8px;             
+            text-align: center;             
+        }
+        footer{
+            height: 60px;
+            padding: 10px;
+            clear: both;
+            text-align: center;
+            background-color: #eee;
+        }
+        aside#menu a:link{
+            color: #4a3728;
+            text-decoration: none; 
+        }
+        #border{
+            border: solid #000 1px;
+            background-color: yellowgreen;
+        }
+        a{
+            color: #000;
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <header class="c_12">
+        <a href="index.html"><img src="logo.png" alt="" height="80"></a>
+    </header>
+    <aside id="menu" class="c_m_3 c_3">
+        <ul>
+            <li ><a href="soup.html">국,찌개</a></li>
+            <li id="border"><a href="main_dish.html">메인요리</a></li>
+            <li><a href="side_dish.html">밑반찬</a></li>
+            <li><a href="west.html">양식</a></li>
+            <li><a href="snack.html">술안주</a></li>
+        </ul>
+    </aside>
+    <section id="main" class="c_m_9 c_6">
+        <h1>메인요리 레시피</h1>
+        <h3>제육볶음</h3>
+            <ul>
+                <li>난이도: 중급 ★★☆</li>
+                <li>소요시간: 30분 내외</li>
+                <li>핵심 재료: 앞다리살, 양파, 대파, 고추장, 간장, 다진마늘</li>
+            </ul>
+            <ul>
+                <h4>레시피</h4>
+                <li>먼저 고추장 3숟갈, 고추가루 2숟갈, 다진마늘 1숟갈,설탕 2숟갈, 간장 1숟갈을 넣어 양념장을 만들어줍니다</li>
+                <li>돼지고기를 양념장에 버무려두고 30분 숙성시켜둡니다</li>
+                <li>식용유를 두른 뒤 파를 넣어 파기름을 만들어줍니다</li>
+                <li>파기름이 충분히 나온다면 고기를 넣어 10분정도 볶아 완전히 익혀줍니다</li>
+                <li>기호에 따라 양파와 고추를 추가해서 익혀주면 제육볶음 완성입니다</li>
+
+            </ul>
+       
+            <h3>소불고기</h3>   
+            <ul>
+                <li>난이도: 중급 ★★☆</li>
+                <li>소요시간: 40분 내외 (재우는 시간 포함)</li>
+                <li>핵심 재료: 소고기 불고기용(설도 또는 등심), 양파, 대파, 팽이버섯, 진간장, 설탕, 다진마늘, 참기름</li>
+            </ul>
+
+            <h4>레시피</h4>
+            <ul>
+                <li>먼저 진간장 5숟갈, 설탕 2숟갈, 물엿 1숟갈, 다진마늘 1숟갈, 참기름 1숟갈, 후추 약간을 섞어 양념장을 만들어줍니다.</li>
+                <li>소고기의 핏물을 키친타월로 살짝 닦아낸 후, 만든 양념장에 조물조물 버무려 냉장고에서 20~30분간 숙성시켜둡니다.</li>
+                <li>양파는 채 썰고, 대파는 어슷썰기 하며, 팽이버섯은 밑동을 잘라 먹기 좋게 찢어서 준비합니다.</li>
+                <li>달궈진 팬에 기름을 두르지 않거나 살짝만 두른 뒤, 양념에 재워둔 소고기를 넣고 센 불에서 빠르게 볶아줍니다.</li>
+                <li>고기의 겉면이 익어가기 시작하면 준비해 둔 양파, 대파, 팽이버섯을 한데 넣고 숨이 죽을 때까지 3~5분간 더 볶아주면 맛있는 소불고기 완성입니다.</li>
+            </ul>
+       
+    </section>
+    <aside id="photos" class="c_m_12 c_3">
+       
+        <ul>
+            <li><img src="wpdbr.jpg" alt=""></li>
+            <li><img src="qnfrhrl.jpg" alt=""></li>
+        </ul>
+    </aside>
+    <footer class="c_12">
+        COPYRIGHT(C) 문무현 ALL Rights Reserved
+    </footer>
+</body>
+</html>

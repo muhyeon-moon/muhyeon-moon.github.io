@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style-type: none;
+        }
+        body{
+            font-family: "맑은 고딕","돋움";
+            font-size: 100%;
+        }
+        [class*="c_"]{
+            float: left;
+            width: 100%;
+        }
+        @media only screen and (min-width: 600px) {
+            .c_m_1 { width: 8.33%; }
+            .c_m_2 { width: 16.66%; }
+            .c_m_3 { width: 25%; }
+            .c_m_4 { width: 33.33%; }
+            .c_m_5 { width: 41.66%; }
+            .c_m_6 { width: 50%; }
+            .c_m_7 { width: 58.33%; }
+            .c_m_8 { width: 66.66%; }
+            .c_m_9 { width: 75%; }
+            .c_m_10 { width: 83.33%; }
+            .c_m_11 { width: 91.66%; }
+            .c_m_12 { width: 100%; }
+
+        }
+        @media only screen and (min-width: 768px) {
+            .c_1 { width: 8.33%; }
+            .c_2 { width: 16.66%; }
+            .c_3 { width: 25%; }
+            .c_4 { width: 33.33%; }
+            .c_5 { width: 41.66%; }
+            .c_6 { width: 50%; }
+            .c_7 { width: 58.33%; }
+            .c_8 { width: 66.66%; }
+            .c_9 { width: 75%; }
+            .c_10 { width: 83.33%; }
+            .c_11 { width: 91.66%; }
+            .c_12 { width: 100%; }
+
+        }
+        header{
+            height: 80px;
+            
+            background-color: #e3f1e0;
+        }
+        aside#menu{
+            color: #4a3728;
+            text-align: center;
+            min-height: calc(100vh);
+            background-color: #fef9e7;
+        }
+        aside#menu li{  
+            padding: 10px;
+            margin: 10px 0 0 0;
+            background-color: #fceebd;
+            
+        }
+        section#main{
+            padding: 15px;
+        }
+        section#main p{
+            padding: 5px;
+            font-size: 0.95em;
+            line-height: 130%;
+        }
+        aside#photos img{
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            
+        }
+        h3{
+            margin-top: 30px;
+        }
+        aside#photos li {
+            background-color: #ffffff;   
+            border: 1px solid #bcbcbc;    
+            padding: 12px;                  
+            margin: 20px 15px 0 0 ;           
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); 
+            border-radius: 8px;             
+            text-align: center;             
+        }
+        footer{
+            height: 60px;
+            padding: 10px;
+            clear: both;
+            text-align: center;
+            background-color: #eee;
+        }
+        aside#menu a:link{
+            color: #4a3728;
+            text-decoration: none; 
+        }
+        #border{
+            border: solid #000 1px;
+            background-color: yellowgreen;
+        }
+        a{
+            color: #000;
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <header class="c_12">
+        <a href="index.html"><img src="logo.png" alt="" height="80"></a>
+    </header>
+    <aside id="menu" class="c_m_3 c_3">
+        <ul>
+            <li><a href="soup.html">국,찌개</a></li>
+            <li><a href="main_dish.html">메인요리</a></li>
+            <li><a href="side_dish.html">밑반찬</a></li>
+            <li  id="border"><a href="west.html">양식</a></li>
+            <li><a href="snack.html">술안주</a></li>
+        </ul>
+    </aside>
+    <section id="main" class="c_m_9 c_6">
+        <h1>양식 레시피</h1>
+        <h3>함박스테이크</h3>
+            <ul>
+                <li>난이도: 중급 ★★☆</li>
+                <li>소요시간: 35분 내외</li>
+                <li>핵심 재료: 다진 소고기, 다진 돼지고기, 양파, 빵가루, 달걀, 돈가스소스, 케첩, 버터</li>
+            </ul>
+
+        <h4>레시피</h4>
+            <ul>
+                <li>양파 반 개를 잘게 다진 후, 팬에 버터 1숟갈을 두르고 갈색빛이 날 때까지 볶아서 한 김 식혀둡니다</li>
+                <li>큰 볼에 다진 소고기 200g, 돼지고기 200g, 볶은 양파, 빵가루 4숟갈, 달걀 1개, 소금과 후추를 넣고 치대어 반죽을 만듭니다</li>
+                <li>반죽을 둥글고 납작하게 빚은 후, 가운데 부분을 손가락으로 살짝 눌러 오목하게 모양을 잡아줍니다</li>
+                <li>달군 팬에 식용유를 두르고 반죽을 올린 뒤, 중약불에서 앞뒤로 노릇하게 구워 속까지 완전히 익혀줍니다</li>
+                <li>고기를 구운 팬에 물 3숟갈, 돈가스소스 4숟갈, 케첩 2숟갈, 올리고당 1숟갈을 넣어 바글바글 끓여 소스를 만든 뒤 고기 위에 부어줍니다</li>
+            </ul>
+        <h3>알리오 올리오</h3>
+            <ul>
+                <li>난이도: 초급 ★☆☆</li>
+                <li>소요시간: 15분 내외</li>
+                <li>핵심 재료: 파스타 면, 통마늘, 페페론치노, 올리브유, 소금, 후추, 면수</li>
+            </ul>
+
+        <h4>레시피</h4>
+            <ul>
+                <li>냄비에 물을 넉넉히 붓고 소금 1숟갈을 넣어 끓인 뒤, 파스타 면을 넣고 7~8분간 삶아줍니다 (이때 면 끓인 물인 면수를 한 컵 꼭 따로 남겨둡니다)</li>
+                <li>통마늘 7~8알은 얇게 편으로 썰어두고, 페페론치노 3~4개는 손으로 으깨어 준비합니다</li>
+                <li>팬에 올리브유를 종이컵 3분의 1 컵 정도로 넉넉히 두르고, 편마늘을 넣어 약불에서 노릇해질 때까지 은은하게 볶아 마늘 향을 내줍니다</li>
+                <li>마늘이 노릇해지면 으깬 페페론치노를 넣고 매운 향이 올라오도록 30초간 함께 볶아줍니다</li>
+                <li>삶아진 면과 남겨둔 면수 반 컵을 팬에 넣고, 센 불에서 면과 기름이 겉돌지 않고 자작하게 엉겨 붙을 때까지 빠르게 볶아준 뒤 후추를 뿌려 완성합니다</li>
+            </ul>
+    </section>
+    <aside id="photos" class="c_m_12 c_3">
+       
+        <ul>
+            <li><img src="goaqjrm.jpg" alt=""></li>
+            <li><img src="dkffldh.jpg" alt=""></li>
+        </ul>
+    </aside>
+    <footer class="c_12">
+        COPYRIGHT(C) 문무현 ALL Rights Reserved
+    </footer>
+</body>
+</html>
